@@ -42,7 +42,6 @@ import PopUp from '../Components/popUpEdit.vue';
 export default {
     name: "App",
     components: {
-        Logo,
         Header,
         Main,
         PopUp
