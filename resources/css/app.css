@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.letra-xs
+{
+    @apply text-xs;
+}
+.letra-sm{
+    @apply text-sm sm:text-base lg:text-base;
+
+}
+.letra-md{
+    @apply text-base sm:text-lg lg:text-xl;
+}
+.letra-lg{
+    @apply text-lg sm:text-xl lg:text-2xl;
+}
+.letra-xl{
+    @apply text-xl sm:text-2xl lg:text-3xl;
+
+}
+
+
+.logo
+{
+    @apply uppercase text-4xl font-bold text-transparent ;
+    background: linear-gradient(to right,#082f49, #7c3aed, #2563eb);
+    background-clip: text;
+    font-family: short, sans-serif;
+}
+
+/* Formulario */
+.form
+{
+    @apply flex flex-col;
+
+    .submit
+    {
+        @apply py-2 px-4 rounded bg-sky-500 font-bold w-fit
+    }
+}
+.label
+{
+    @apply text-base sm:text-lg lg:text-xl font-medium;
+}
+.input
+{
+    @apply text-base sm:text-lg lg:text-xl;
+}
+.campo
+{
+    @apply flex flex-col  my-2;
+}
+
+/* Nav */
+.nav-link
+{
+    @apply w-full text-center py-2 bg-sky-300 my-2 rounded-lg;
+}
+
+/* Notas */
+.button
+{
+    @apply py-2 px-4 text-base sm:text-lg rounded-lg;
+}
