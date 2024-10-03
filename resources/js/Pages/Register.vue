@@ -5,7 +5,7 @@
             <div class="bg-sky-300 p-6">
             <h1 class="logo text-center">AppToDo</h1>
             <form @submit.prevent="submitLogin" class="form">
-                <h1>Registro de nueva cuenta</h1>
+                <h1 class="font-bold">Crea tu cuenta nueva!</h1>
                 <div class="campo">
                     <label class="label" for="name">Nombre</label>
                     <input class="input" id="name" type="text" v-model="name" placeholder="nombre">
@@ -23,7 +23,8 @@
                     <input class="input" id="password2" type="password" v-model="password_confirmation" placeholder="Confirmar password">
                 </div>
                 <inputError v-for="item in respuestaErrores" :message="item[0]"></inputError>
-                <input class="submit" value="Login" type="submit">
+                <input class="submit" value="Registrarse" type="submit">
+                <router-link to="/" class="mt-2 underline"> Ya tienes cuenta? Click aqui </router-link>
             </form>
             </div>
         </div>

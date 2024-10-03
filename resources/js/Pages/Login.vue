@@ -14,7 +14,10 @@
                     <input class="input" type="password" v-model="password" placeholder="Password">
                 </div>
                 <inputError v-for="item in respuestaErrores" :message="item[0]"></inputError>
-                <input class="submit" value="Login" type="submit">
+                <div class="flex justify-between">
+                    <input class="submit" value="Login" type="submit">
+                    <router-link to="/register" class="mt-2 underline"> Registrarse </router-link>
+                </div>
             </form>
             </div>
         </div>
