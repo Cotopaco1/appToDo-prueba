@@ -18,7 +18,7 @@
 
 <script>
 
-import Logo from '../Components/logo.vue';
+import Logo from '../Components/Logo.vue';
 import axios from 'axios';
 import { mapGetters } from 'vuex';
 
