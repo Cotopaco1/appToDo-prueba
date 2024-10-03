@@ -35,7 +35,6 @@
 </template>
 <script>
 
-import Logo from '../Components/logo.vue';
 import Header from '../Components/header_dashboard.vue';
 import Main from '../Components/mainContainer.vue';
 import PopUp from '../Components/popUpEdit.vue';
